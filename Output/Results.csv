@@ -1,5 +1,4 @@
 Meta-analysis,,,,,
-,,,,,
 Model,OR,CI_Lower,CI_Upper,SE,p_value
 Random-effects,0.475,0.330,0.683,0.186,6.18E-05
 ,,,,,
@@ -16,3 +15,4 @@ Heterogeneity Summary,,,,,
 Model,Tau2,I2,Q,Q_df,Q_p
 Random-effects,0.338,92.073,163.165,12,1.19E-28
 Meta-regression,0.140,68.793,24.328,9,0.004
+
