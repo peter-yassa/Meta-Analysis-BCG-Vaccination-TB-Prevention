@@ -1,4 +1,4 @@
-# BCG-Vaccination-TB-Prevention
+# Meta-Analysis-BCG-Vaccination-TB-Prevention
 ## Overview
 I utilized RStudio to evaulate the efficacy of bacillus Calmette-Guerin (BCG) vaccination on tuberculosis across multiple clinical trials. I conducted this meta-analysis using summary data obtained from the metafor R package (dat.bcg), which compiled randomized controlled trials (RCTs) evaluating the efficacy of BCG vaccination against tuberculosis. 
 
