@@ -28,13 +28,13 @@ Analysis scripts:
 ## Results
 ### Meta-Analysis
 
-The pooled analysis demonstrated a significant protective effect of BCG vaccination against TB (OR = 0.48, 95% CI: 0.33–0.68):
+The pooled analysis demonstrated a significant protective effect of BCG vaccination against TB (OR = 0.47, 95% CI: 0.33–0.68):
 
 | Model           | OR    | 95% CI        | SE    | p-value |
 |----------------|-------|---------------|-------|---------|
-| Random-effects | 0.475 | 0.330 – 0.683 | 0.186 | <0.001  |
+| Random-effects | 0.47 | 0.33 – 0.68 | 0.186 | <0.001  |
 
-This suggests that BCG vaccination was associated with a 52% reduction in the odds of developing TB compared to controls.
+This suggests that BCG vaccination was associated with a 53% reduction in the odds of developing TB compared to controls.
 
 ![Forest plot of BCG vaccination efficacy](figures/forest_plot.png)
 
