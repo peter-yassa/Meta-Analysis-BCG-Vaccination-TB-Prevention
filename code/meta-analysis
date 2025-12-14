@@ -1,0 +1,17 @@
+library(metafor)
+
+#calculating effect size for individual trials
+BCG_ES <- escalc(measure = "OR", ai = tpos, bi = tneg, ci = cpos, di = cneg, data = BCG)
+
+
+#random effect meta-analysis (REML method for variance)
+
+random_MA <- rma(yi, vi, data = BCG_ES)
+
+exp(cbind(
+  OR = random_MA$b,
+  ci.lb = random_MA$ci.lb, ci.ub = random_MA$ci.ub))
+
+#forest plot
+png("outputs/forest_plot.png")
+forest(random_MA, slab = paste(BCG$label),  xlab = "Odds Ratio", transf = exp, refline = 1)
