@@ -1,0 +1,8 @@
+mixed_MA <- rma(yi, vi, mods = ~ alloc + ablat, data = BCG_ES)
+summary(mixed_MA)
+exp(coef(mixed_MA))
+
+
+#funnel plot
+png("figures/funnel_plot.png")
+funnel(random_MA)
