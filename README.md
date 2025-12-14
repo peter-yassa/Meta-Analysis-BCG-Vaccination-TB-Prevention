@@ -11,7 +11,7 @@ The dataset includes trial-level counts of TB cases and non-cases in vaccinated 
 - Allocation method (random vs systematic)
 - Absolute latitude of study location 
 
-Data preparation steps are documented in [Data prep](code/Data prep). I created a "study label" variable for the forest plot.
+Data preparation steps are documented in [data_prep](code/data_prep). I created a "study label" variable for the forest plot.
 
 ## Methods
 Given the variability in study design and sample size of included trials, I conducted a random-effects meta-analysis. I used restricted maximum likelihood (REML) estimation to generate a pooled odds ratio (OR) and corresponding 95% confidence interval (CI) for the association between BCG vaccination and TB.
