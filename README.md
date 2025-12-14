@@ -21,6 +21,7 @@ After conducting the analysis, I assessed for heterogeneity using Q-statistics a
 To explore the impact of heterogeneity, meta-regression was performed to evaluate the impact of allocation method and absolute latitude on treatment effects.
 
 All analyses were performed in R using the `metafor` package.  
+
 Analysis scripts:
 - [Meta-analysis](code/meta-analysis)
 - [Meta-regression](code/meta-regression)
@@ -35,7 +36,6 @@ The pooled analysis demonstrated a significant protective effect of BCG vaccinat
 | Random-effects | 0.47 | 0.33 – 0.68 | 0.186 | <0.001  |
 
 This suggests that BCG vaccination was associated with a 53% reduction in the odds of developing TB compared to controls.
-
 ![Forest plot of BCG vaccination efficacy](figures/forest_plot.png)
 
 However, substantial heterogeneity was observed. The I² statistic indicated that approximately 92% of the total variability in observed effect sizes was attributable to heterogeneity rather than sampling error, which was supported by a statistically significant Cochran’s Q test (p < 0.001).
@@ -49,6 +49,5 @@ Detailed regression results are available here:
 
 ### Funnel Plot 
 The funnel plot suggests a relatively symmetric distribution of studies.
-
 ![Funnel plot](figures/funnel_plot.png)
 
