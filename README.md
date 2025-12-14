@@ -1,6 +1,6 @@
 # Meta-Analysis-BCG-Vaccination-TB-Prevention
 ## Overview
-I utilized RStudio to evaulate the efficacy of bacillus Calmette-Guerin (BCG) vaccination on tuberculosis across multiple clinical trials. I conducted this meta-analysis using summary data obtained from the metafor R package `dat.bcg`, which compiled randomized controlled trials (RCTs) evaluating the efficacy of BCG vaccination against tuberculosis. 
+I utilized RStudio to evaulate the efficacy of bacillus Calmette-Guerin (BCG) vaccination on tuberculosis (TB) across multiple clinical trials. I conducted this meta-analysis using summary data obtained from the metafor R package `dat.bcg`, which compiled randomized controlled trials (RCTs) evaluating the efficacy of BCG vaccination against TB. 
 
 The `dat.bcg` dataset included 13 RCTs conducted between 1948 and 1980.
 
@@ -35,7 +35,8 @@ The pooled analysis demonstrated a significant protective effect of BCG vaccinat
 |----------------|-------|---------------|-------|---------|
 | Random-effects | 0.47 | 0.33 – 0.68 | 0.186 | <0.001  |
 
-This suggests that BCG vaccination was associated with a 53% reduction in the odds of developing TB compared to controls.
+This corresponds to a 53% reduction in the odds of developing TB compared to controls.
+
 ![Forest plot of BCG vaccination efficacy](figures/forest_plot.png)
 
 However, substantial heterogeneity was observed. The I² statistic indicated that approximately 92% of the total variability in observed effect sizes was attributable to heterogeneity rather than sampling error, which was supported by a statistically significant Cochran’s Q test (p < 0.001).
@@ -50,4 +51,7 @@ Detailed regression results are available here:
 ### Funnel Plot 
 The funnel plot suggests a relatively symmetric distribution of studies.
 ![Funnel plot](figures/funnel_plot.png)
+
+## Conclusion
+This meta-analysis demonstrated a statistically significant protective association between BCG vaccination and TB, with substantial heterogeneity across studies. Meta-regression analyses suggest that absolute latitude may partially explain variability in observed treatment effects.
 
