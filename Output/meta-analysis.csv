@@ -1,0 +1,3 @@
+Meta-analysis,,,,,
+Model,OR,CI_Lower,CI_Upper,SE,p_value
+Random-effects,0.475,0.330,0.683,0.186,6.18E-05
