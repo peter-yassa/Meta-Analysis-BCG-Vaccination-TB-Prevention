@@ -1,0 +1,6 @@
+Meta-regression,,,,,
+Moderator,OR,CI_Lower,CI_Upper,p_value,
+intrcpt,1.298,0.591,2.853,0.516,
+allocrandom,0.835,0.422,1.653,0.605,
+allocsystematic,1.157,0.553,2.421,0.698,
+ablat,0.971,0.954,0.989,0.001,
