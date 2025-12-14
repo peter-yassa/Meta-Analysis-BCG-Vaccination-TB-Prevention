@@ -36,7 +36,7 @@ The pooled analysis demonstrated a significant protective effect of BCG vaccinat
 
 This suggests that BCG vaccination was associated with a 52% reduction in the odds of developing TB compared to controls.
 
-![Forest plot of BCG vaccination efficacy](figures/Forest Plot.png)
+![Forest plot of BCG vaccination efficacy](figures/forest_plot.png)
 
 However, substantial heterogeneity was observed. The I² statistic indicated that approximately 92% of the total variability in observed effect sizes was attributable to heterogeneity rather than sampling error, which was supported by a statistically significant Cochran’s Q test (p < 0.001).
 
@@ -50,5 +50,5 @@ Detailed regression results are available here:
 ### Funnel Plot 
 The funnel plot suggests a relatively symmetric distribution of studies.
 
-![Funnel plot](figures/Funnel Plot.png)
+![Funnel plot](figures/funnel_plot.png)
 
