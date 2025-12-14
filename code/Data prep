@@ -1,0 +1,11 @@
+library(tidyverse)
+data(dat.bcg)
+BCG <- dat.bcg
+
+#create study label
+
+BCG <- BCG %>%
+  mutate(label = paste(author, " (", year, ")", sep = ""),
+    alloc = factor(alloc))
+
+write.csv(BCG, "data/bcg_data.csv", row.names = FALSE)
